@@ -22,7 +22,7 @@ PYLoadingOptionEffect const PYLoadingOptionEffectBubble      = @"bubble";
 {
     self = [super init];
     if (self) {
-        _text = @"数据读取中...";
+        _text = NSLocalizedString(@"py_loading_option_text", @"数据读取中...");
         _x = PYPositionCenter;
         _y = PYPositionCenter;
         _effect = PYLoadingOptionEffectSpin;
