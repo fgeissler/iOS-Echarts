@@ -34,7 +34,6 @@
 		6F4D58EB1D4FE34F00246943 /* PYLineStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D588A1D4FE34F00246943 /* PYLineStyle.m */; };
 		6F4D58EC1D4FE34F00246943 /* PYLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D588C1D4FE34F00246943 /* PYLinks.m */; };
 		6F4D58ED1D4FE34F00246943 /* PYLinkStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D588E1D4FE34F00246943 /* PYLinkStyle.m */; };
-		6F4D58EE1D4FE34F00246943 /* PYLoadingOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D58901D4FE34F00246943 /* PYLoadingOption.m */; };
 		6F4D58EF1D4FE34F00246943 /* PYNoDataLoadingOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D58921D4FE34F00246943 /* PYNoDataLoadingOption.m */; };
 		6F4D58F01D4FE34F00246943 /* PYNodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D58941D4FE34F00246943 /* PYNodes.m */; };
 		6F4D58F11D4FE34F00246943 /* PYNodeStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D58961D4FE34F00246943 /* PYNodeStyle.m */; };
@@ -99,7 +98,6 @@
 		6F743AAE1D7B03F700C94967 /* PYLineStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D588A1D4FE34F00246943 /* PYLineStyle.m */; };
 		6F743AAF1D7B03F700C94967 /* PYLinks.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D588C1D4FE34F00246943 /* PYLinks.m */; };
 		6F743AB01D7B03F700C94967 /* PYLinkStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D588E1D4FE34F00246943 /* PYLinkStyle.m */; };
-		6F743AB11D7B03F700C94967 /* PYLoadingOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D58901D4FE34F00246943 /* PYLoadingOption.m */; };
 		6F743AB21D7B03F700C94967 /* PYNoDataLoadingOption.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D58921D4FE34F00246943 /* PYNoDataLoadingOption.m */; };
 		6F743AB31D7B03F700C94967 /* PYNodes.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D58941D4FE34F00246943 /* PYNodes.m */; };
 		6F743AB41D7B03F700C94967 /* PYNodeStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F4D58961D4FE34F00246943 /* PYNodeStyle.m */; };
@@ -197,6 +195,40 @@
 		6FF570A11D85B0A5007AA7A6 /* PYGaugesDemoOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF570A01D85B0A5007AA7A6 /* PYGaugesDemoOptions.m */; };
 		6FF570A41D861842007AA7A6 /* PYFunnelDemoOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF570A31D861842007AA7A6 /* PYFunnelDemoOptions.m */; };
 		6FF570A71D88597B007AA7A6 /* PYScatterDemoOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6FF570A61D88597B007AA7A6 /* PYScatterDemoOptions.m */; };
+		D5964AA3212DEE9A0042AC1B /* PYLoadingOption.m in Sources */ = {isa = PBXBuildFile; fileRef = D5964AA6212DEE9A0042AC1B /* PYLoadingOption.m */; };
+		D5964AA4212DEE9A0042AC1B /* PYLoadingOption.m in Sources */ = {isa = PBXBuildFile; fileRef = D5964AA6212DEE9A0042AC1B /* PYLoadingOption.m */; };
+		D5964AA7212DEED40042AC1B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5964AAA212DEED40042AC1B /* Localizable.strings */; };
+		D5964AA8212DEED40042AC1B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D5964AAA212DEED40042AC1B /* Localizable.strings */; };
+		D5964AC1212DEF2D0042AC1B /* echarts-all.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AAF212DEF2D0042AC1B /* echarts-all.js */; };
+		D5964AC2212DEF2D0042AC1B /* echarts-all.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AAF212DEF2D0042AC1B /* echarts-all.js */; };
+		D5964AC3212DEF2D0042AC1B /* echarts.html in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB0212DEF2D0042AC1B /* echarts.html */; };
+		D5964AC4212DEF2D0042AC1B /* echarts.html in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB0212DEF2D0042AC1B /* echarts.html */; };
+		D5964AC5212DEF2D0042AC1B /* macarons.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB2212DEF2D0042AC1B /* macarons.js */; };
+		D5964AC6212DEF2D0042AC1B /* macarons.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB2212DEF2D0042AC1B /* macarons.js */; };
+		D5964AC7212DEF2D0042AC1B /* macarons2.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB3212DEF2D0042AC1B /* macarons2.js */; };
+		D5964AC8212DEF2D0042AC1B /* macarons2.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB3212DEF2D0042AC1B /* macarons2.js */; };
+		D5964AC9212DEF2D0042AC1B /* red.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB4212DEF2D0042AC1B /* red.js */; };
+		D5964ACA212DEF2D0042AC1B /* red.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB4212DEF2D0042AC1B /* red.js */; };
+		D5964ACB212DEF2D0042AC1B /* roma.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB5212DEF2D0042AC1B /* roma.js */; };
+		D5964ACC212DEF2D0042AC1B /* roma.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB5212DEF2D0042AC1B /* roma.js */; };
+		D5964ACD212DEF2D0042AC1B /* helianthus.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB6212DEF2D0042AC1B /* helianthus.js */; };
+		D5964ACE212DEF2D0042AC1B /* helianthus.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB6212DEF2D0042AC1B /* helianthus.js */; };
+		D5964ACF212DEF2D0042AC1B /* green.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB7212DEF2D0042AC1B /* green.js */; };
+		D5964AD0212DEF2D0042AC1B /* green.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB7212DEF2D0042AC1B /* green.js */; };
+		D5964AD1212DEF2D0042AC1B /* infographic.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB8212DEF2D0042AC1B /* infographic.js */; };
+		D5964AD2212DEF2D0042AC1B /* infographic.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB8212DEF2D0042AC1B /* infographic.js */; };
+		D5964AD3212DEF2D0042AC1B /* shine.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB9212DEF2D0042AC1B /* shine.js */; };
+		D5964AD4212DEF2D0042AC1B /* shine.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964AB9212DEF2D0042AC1B /* shine.js */; };
+		D5964AD5212DEF2D0042AC1B /* gray.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964ABA212DEF2D0042AC1B /* gray.js */; };
+		D5964AD6212DEF2D0042AC1B /* gray.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964ABA212DEF2D0042AC1B /* gray.js */; };
+		D5964AD7212DEF2D0042AC1B /* sakura.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964ABB212DEF2D0042AC1B /* sakura.js */; };
+		D5964AD8212DEF2D0042AC1B /* sakura.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964ABB212DEF2D0042AC1B /* sakura.js */; };
+		D5964AD9212DEF2D0042AC1B /* blue.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964ABC212DEF2D0042AC1B /* blue.js */; };
+		D5964ADA212DEF2D0042AC1B /* blue.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964ABC212DEF2D0042AC1B /* blue.js */; };
+		D5964ADB212DEF2D0042AC1B /* dark.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964ABD212DEF2D0042AC1B /* dark.js */; };
+		D5964ADC212DEF2D0042AC1B /* dark.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964ABD212DEF2D0042AC1B /* dark.js */; };
+		D5964ADD212DEF2D0042AC1B /* mint.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964ABE212DEF2D0042AC1B /* mint.js */; };
+		D5964ADE212DEF2D0042AC1B /* mint.js in Resources */ = {isa = PBXBuildFile; fileRef = D5964ABE212DEF2D0042AC1B /* mint.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -264,7 +296,6 @@
 		6F4D588D1D4FE34F00246943 /* PYLinkStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYLinkStyle.h; sourceTree = "<group>"; };
 		6F4D588E1D4FE34F00246943 /* PYLinkStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYLinkStyle.m; sourceTree = "<group>"; };
 		6F4D588F1D4FE34F00246943 /* PYLoadingOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYLoadingOption.h; sourceTree = "<group>"; };
-		6F4D58901D4FE34F00246943 /* PYLoadingOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYLoadingOption.m; sourceTree = "<group>"; };
 		6F4D58911D4FE34F00246943 /* PYNoDataLoadingOption.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYNoDataLoadingOption.h; sourceTree = "<group>"; };
 		6F4D58921D4FE34F00246943 /* PYNoDataLoadingOption.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYNoDataLoadingOption.m; sourceTree = "<group>"; };
 		6F4D58931D4FE34F00246943 /* PYNodes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYNodes.h; sourceTree = "<group>"; };
@@ -449,6 +480,23 @@
 		6FF570A31D861842007AA7A6 /* PYFunnelDemoOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYFunnelDemoOptions.m; sourceTree = "<group>"; };
 		6FF570A51D88597B007AA7A6 /* PYScatterDemoOptions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PYScatterDemoOptions.h; sourceTree = "<group>"; };
 		6FF570A61D88597B007AA7A6 /* PYScatterDemoOptions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PYScatterDemoOptions.m; sourceTree = "<group>"; };
+		D5964AA5212DEE9A0042AC1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Base; path = Base.lproj/PYLoadingOption.m; sourceTree = "<group>"; };
+		D5964AA9212DEED40042AC1B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D5964AAF212DEF2D0042AC1B /* echarts-all.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = "echarts-all.js"; sourceTree = "<group>"; };
+		D5964AB0212DEF2D0042AC1B /* echarts.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = echarts.html; sourceTree = "<group>"; };
+		D5964AB2212DEF2D0042AC1B /* macarons.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = macarons.js; sourceTree = "<group>"; };
+		D5964AB3212DEF2D0042AC1B /* macarons2.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = macarons2.js; sourceTree = "<group>"; };
+		D5964AB4212DEF2D0042AC1B /* red.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = red.js; sourceTree = "<group>"; };
+		D5964AB5212DEF2D0042AC1B /* roma.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = roma.js; sourceTree = "<group>"; };
+		D5964AB6212DEF2D0042AC1B /* helianthus.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = helianthus.js; sourceTree = "<group>"; };
+		D5964AB7212DEF2D0042AC1B /* green.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = green.js; sourceTree = "<group>"; };
+		D5964AB8212DEF2D0042AC1B /* infographic.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = infographic.js; sourceTree = "<group>"; };
+		D5964AB9212DEF2D0042AC1B /* shine.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = shine.js; sourceTree = "<group>"; };
+		D5964ABA212DEF2D0042AC1B /* gray.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = gray.js; sourceTree = "<group>"; };
+		D5964ABB212DEF2D0042AC1B /* sakura.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = sakura.js; sourceTree = "<group>"; };
+		D5964ABC212DEF2D0042AC1B /* blue.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = blue.js; sourceTree = "<group>"; };
+		D5964ABD212DEF2D0042AC1B /* dark.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = dark.js; sourceTree = "<group>"; };
+		D5964ABE212DEF2D0042AC1B /* mint.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = mint.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -579,7 +627,7 @@
 				6F4D588D1D4FE34F00246943 /* PYLinkStyle.h */,
 				6F4D588E1D4FE34F00246943 /* PYLinkStyle.m */,
 				6F4D588F1D4FE34F00246943 /* PYLoadingOption.h */,
-				6F4D58901D4FE34F00246943 /* PYLoadingOption.m */,
+				D5964AA6212DEE9A0042AC1B /* PYLoadingOption.m */,
 				6F4D58911D4FE34F00246943 /* PYNoDataLoadingOption.h */,
 				6F4D58921D4FE34F00246943 /* PYNoDataLoadingOption.m */,
 				6F4D58931D4FE34F00246943 /* PYNodes.h */,
@@ -660,6 +708,8 @@
 				6F743AEA1D7E1C2D00C94967 /* theme */,
 				6F7352BC1D50A779006CD119 /* js */,
 				6F4D58CF1D4FE34F00246943 /* echarts.html */,
+				D5964AAA212DEED40042AC1B /* Localizable.strings */,
+				D5964AAB212DEF2D0042AC1B /* Resources */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -874,6 +924,44 @@
 			path = Categories;
 			sourceTree = "<group>";
 		};
+		D5964AAB212DEF2D0042AC1B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D5964AAE212DEF2D0042AC1B /* js */,
+				D5964AB0212DEF2D0042AC1B /* echarts.html */,
+				D5964AB1212DEF2D0042AC1B /* theme */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D5964AAE212DEF2D0042AC1B /* js */ = {
+			isa = PBXGroup;
+			children = (
+				D5964AAF212DEF2D0042AC1B /* echarts-all.js */,
+			);
+			path = js;
+			sourceTree = "<group>";
+		};
+		D5964AB1212DEF2D0042AC1B /* theme */ = {
+			isa = PBXGroup;
+			children = (
+				D5964AB2212DEF2D0042AC1B /* macarons.js */,
+				D5964AB3212DEF2D0042AC1B /* macarons2.js */,
+				D5964AB4212DEF2D0042AC1B /* red.js */,
+				D5964AB5212DEF2D0042AC1B /* roma.js */,
+				D5964AB6212DEF2D0042AC1B /* helianthus.js */,
+				D5964AB7212DEF2D0042AC1B /* green.js */,
+				D5964AB8212DEF2D0042AC1B /* infographic.js */,
+				D5964AB9212DEF2D0042AC1B /* shine.js */,
+				D5964ABA212DEF2D0042AC1B /* gray.js */,
+				D5964ABB212DEF2D0042AC1B /* sakura.js */,
+				D5964ABC212DEF2D0042AC1B /* blue.js */,
+				D5964ABD212DEF2D0042AC1B /* dark.js */,
+				D5964ABE212DEF2D0042AC1B /* mint.js */,
+			);
+			path = theme;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -941,6 +1029,7 @@
 				TargetAttributes = {
 					6C4216751B98E310002D4B7A = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = F59KFSJ6EF;
 					};
 					6C42168E1B98E310002D4B7A = {
 						CreatedOnToolsVersion = 6.4;
@@ -976,16 +1065,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5964ADB212DEF2D0042AC1B /* dark.js in Resources */,
+				D5964AD9212DEF2D0042AC1B /* blue.js in Resources */,
+				D5964AC9212DEF2D0042AC1B /* red.js in Resources */,
 				6F743A6F1D78B1CF00C94967 /* Main.storyboard in Resources */,
+				D5964AC7212DEF2D0042AC1B /* macarons2.js in Resources */,
+				D5964AC5212DEF2D0042AC1B /* macarons.js in Resources */,
 				6F13257F1D93D0650006F114 /* MultiEcharts2Controller.xib in Resources */,
 				6F9DCF181D7841D6007CEAD2 /* GaugesDemoController.xib in Resources */,
 				6F9DCF1A1D7841D6007CEAD2 /* LineDemoController.xib in Resources */,
 				6F9DCF271D7841D6007CEAD2 /* ScatterDemoController.xib in Resources */,
+				D5964ACF212DEF2D0042AC1B /* green.js in Resources */,
 				6F9DCF311D7841D6007CEAD2 /* Images.xcassets in Resources */,
+				D5964ACD212DEF2D0042AC1B /* helianthus.js in Resources */,
 				6F9DCF071D7841D6007CEAD2 /* LaunchScreen.xib in Resources */,
 				542992711E1622E50082986D /* WKWebViewController.xib in Resources */,
+				D5964ADD212DEF2D0042AC1B /* mint.js in Resources */,
 				6F9DCF2B1D7841D6007CEAD2 /* TreemapDemoController.xib in Resources */,
 				6F9DCF291D7841D6007CEAD2 /* TreeDemoController.xib in Resources */,
+				D5964AD1212DEF2D0042AC1B /* infographic.js in Resources */,
+				D5964AD5212DEF2D0042AC1B /* gray.js in Resources */,
+				D5964AD7212DEF2D0042AC1B /* sakura.js in Resources */,
 				6F743AEB1D7E1C2D00C94967 /* theme in Resources */,
 				6F9DCF101D7841D6007CEAD2 /* ChordDemoController.xib in Resources */,
 				6F9DCF0E1D7841D6007CEAD2 /* CandlestickDemoController.xib in Resources */,
@@ -994,16 +1094,21 @@
 				6F7352BD1D50A779006CD119 /* js in Resources */,
 				6F9DCF161D7841D6007CEAD2 /* FunnelDemoController.xib in Resources */,
 				6F9DCF231D7841D6007CEAD2 /* PieDemoController.xib in Resources */,
+				D5964ACB212DEF2D0042AC1B /* roma.js in Resources */,
 				6F9DCF211D7841D6007CEAD2 /* OtherDemoController.xib in Resources */,
+				D5964AD3212DEF2D0042AC1B /* shine.js in Resources */,
 				6F9DCF251D7841D6007CEAD2 /* RadarDemoController.xib in Resources */,
 				6F4D590D1D4FE34F00246943 /* echarts.html in Resources */,
 				6F9DCF0C1D7841D6007CEAD2 /* BarDemoController.xib in Resources */,
+				D5964AA7212DEED40042AC1B /* Localizable.strings in Resources */,
 				6F9DCF121D7841D6007CEAD2 /* EventRiverController.xib in Resources */,
 				6F9DCF1F1D7841D6007CEAD2 /* MultiEchartsController.xib in Resources */,
+				D5964AC3212DEF2D0042AC1B /* echarts.html in Resources */,
 				6F9DCF1D1D7841D6007CEAD2 /* MapDemoController.xib in Resources */,
 				6CC846641BC1BEB000947312 /* iOS-Echarts.podspec in Resources */,
 				6F9DCF301D7841D6007CEAD2 /* WordCloudDemoController.xib in Resources */,
 				6F9DCF2D1D7841D6007CEAD2 /* VennDemoController.xib in Resources */,
+				D5964AC1212DEF2D0042AC1B /* echarts-all.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1018,11 +1123,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D5964AC6212DEF2D0042AC1B /* macarons.js in Resources */,
+				D5964ACE212DEF2D0042AC1B /* helianthus.js in Resources */,
+				D5964ADE212DEF2D0042AC1B /* mint.js in Resources */,
 				6F743A6E1D78B01B00C94967 /* Main.storyboard in Resources */,
+				D5964AD4212DEF2D0042AC1B /* shine.js in Resources */,
+				D5964AD8212DEF2D0042AC1B /* sakura.js in Resources */,
+				D5964AD2212DEF2D0042AC1B /* infographic.js in Resources */,
+				D5964ADA212DEF2D0042AC1B /* blue.js in Resources */,
+				D5964AC2212DEF2D0042AC1B /* echarts-all.js in Resources */,
+				D5964AA8212DEED40042AC1B /* Localizable.strings in Resources */,
+				D5964AD0212DEF2D0042AC1B /* green.js in Resources */,
+				D5964ACA212DEF2D0042AC1B /* red.js in Resources */,
+				D5964AC4212DEF2D0042AC1B /* echarts.html in Resources */,
+				D5964ADC212DEF2D0042AC1B /* dark.js in Resources */,
 				6F743AD61D7B052700C94967 /* echarts.html in Resources */,
 				6F743AD51D7B052400C94967 /* js in Resources */,
 				6F743AEC1D7E1C2D00C94967 /* theme in Resources */,
+				D5964AC8212DEF2D0042AC1B /* macarons2.js in Resources */,
+				D5964AD6212DEF2D0042AC1B /* gray.js in Resources */,
 				6F743A6D1D78B01900C94967 /* Assets.xcassets in Resources */,
+				D5964ACC212DEF2D0042AC1B /* roma.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1039,7 +1160,7 @@
 				6F4D59051D4FE34F00246943 /* PYMarkPoint.m in Sources */,
 				6F4D58EC1D4FE34F00246943 /* PYLinks.m in Sources */,
 				6F9DCF131D7841D6007CEAD2 /* ForceDemoController.m in Sources */,
-				6F4D58EE1D4FE34F00246943 /* PYLoadingOption.m in Sources */,
+				D5964AA3212DEE9A0042AC1B /* PYLoadingOption.m in Sources */,
 				6F4D59031D4FE34F00246943 /* PYMapSeries.m in Sources */,
 				6F9DCF341D7841D6007CEAD2 /* NSObject+RMCopyable.m in Sources */,
 				6FEFF6F01D564D5C00E8B77E /* PYChordStyle.m in Sources */,
@@ -1182,7 +1303,7 @@
 				6F743AA21D7B03F700C94967 /* PYAxisLine.m in Sources */,
 				6F743ACC1D7B03F700C94967 /* PYTreeMapSeries.m in Sources */,
 				6F743AA31D7B03F700C94967 /* PYAxisPointer.m in Sources */,
-				6F743AB11D7B03F700C94967 /* PYLoadingOption.m in Sources */,
+				D5964AA4212DEE9A0042AC1B /* PYLoadingOption.m in Sources */,
 				6F743AB31D7B03F700C94967 /* PYNodes.m in Sources */,
 				6F743AA71D7B03F700C94967 /* PYColor.m in Sources */,
 				6F743AB21D7B03F700C94967 /* PYNoDataLoadingOption.m in Sources */,
@@ -1239,6 +1360,22 @@
 				6F9DCEB81D7841D6007CEAD2 /* Base */,
 			);
 			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5964AA6212DEE9A0042AC1B /* PYLoadingOption.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5964AA5212DEE9A0042AC1B /* Base */,
+			);
+			name = PYLoadingOption.m;
+			sourceTree = "<group>";
+		};
+		D5964AAA212DEED40042AC1B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5964AA9212DEED40042AC1B /* en */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1329,6 +1466,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F59KFSJ6EF;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/iOS-Echarts_iOS/iOS-Echarts-PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/iOS-Echarts_iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
@@ -1343,6 +1481,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = F59KFSJ6EF;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/Demo/iOS-Echarts_iOS/iOS-Echarts-PrefixHeader.pch";
 				INFOPLIST_FILE = "$(SRCROOT)/Demo/iOS-Echarts_iOS/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
