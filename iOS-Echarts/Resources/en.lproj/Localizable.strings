@@ -5,4 +5,31 @@
   Created by Frank Geißler on 22.08.18.
   Copyright © 2018 pluto-y. All rights reserved.
 */
-"py_loading_option_text" = "Loading data..."
+
+// PYLoadingOption
+"py_loading_option_text" = "Data reading..."
+
+// PYNoDataLoadingOption
+"py_no_data_loading_option_text" = "No data"
+
+// PYToolboxFeature
+"py_toolbox_feature_mark_title" = "Auxiliary line switch";
+"py_toolbox_feature_mark_title_undo" = "Delete guide";
+"py_toolbox_feature_mark_title_clear" = "Empty guide";
+"py_toolbox_feature_data_zoom" = "Area zoom";
+"py_toolbox_feature_data_zoom_reset" = "Area zoom back";
+"py_toolbox_feature_data_view_titel" = "Data view";
+"py_toolbox_feature_data_view_lang_1" = "Data view";
+"py_toolbox_feature_data_view_lang_2" = "Shut down";
+"py_toolbox_feature_data_view_lang_3" = "Refresh";
+"py_toolbox_feature_magic_type_title_line" = "Line chart switching";
+"py_toolbox_feature_magic_type_title_bar" = "Bar  chart switching";
+"py_toolbox_feature_magic_type_title_stack" = "Accumulation";
+"py_toolbox_feature_magic_type_title_tiled" = "Tile";
+"py_toolbox_feature_magic_type_title_force" = "Force-oriented layout switching";
+"py_toolbox_feature_magic_type_title_chord" = "Chord chart switching";
+"py_toolbox_feature_magic_type_title_pie" = "Pie chart switching";
+"py_toolbox_feature_magic_type_title_funnel" = "Funnel chart switching";
+"py_toolbox_feature_restore_title" = "Reduction";
+"py_toolbox_feature_save_as_image_title" = "Save as image";
+"py_toolbox_feature_save_as_image_lang" = "Click save";
