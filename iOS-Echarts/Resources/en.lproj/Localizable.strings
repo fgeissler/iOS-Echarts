@@ -1,0 +1,8 @@
+/* 
+  Localizable.strings
+  iOS-Echarts
+
+  Created by Frank Geißler on 22.08.18.
+  Copyright © 2018 pluto-y. All rights reserved.
+*/
+"py_loading_option_text" = "Loading data..."
