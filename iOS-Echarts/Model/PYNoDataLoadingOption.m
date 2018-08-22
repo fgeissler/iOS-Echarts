@@ -15,7 +15,7 @@
 {
     self = [super init];
     if (self) {
-        self.text = @"暂无数据";
+        self.text = NSLocalizedString(@"py_no_data_loading_option_text", @"暂无数据");
         self.x = PYPositionCenter;
         self.y = PYPositionCenter;
         self.effect = PYLoadingOptionEffectBubble;
